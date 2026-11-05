@@ -1,4 +1,4 @@
-# Welcome to your Lovable project
+# LymphoScan - AI Lymphoma Subtype Detection
 
 This project was built with [Lovable](https://lovable.dev).
 
@@ -15,8 +15,8 @@ Open your project in the [Lovable editor](https://lovable.dev) and keep building
 Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
 
 ```sh
-git clone <this-repository-url>
-cd <repository-name>
+git clone https://github.com/Preethi42005/lymphoma.git
+cd lymphoma
 npm i
 npm run dev
 ```
@@ -41,6 +41,23 @@ npm run dev
 
 Passwords are stored as SHA-256 hashes (not plain text). Close and reopen the Excel file after sign-up/login to see updates.
 
+## Features
+
+- **Hybrid Deep Learning Model**: MobileNetV2 + DenseNet121 with multi-scale feature fusion
+- **Multi-scale Feature Extraction**: Features from different scales for better classification
+- **Attention-based Fusion**: Custom attention mechanism for feature combination
+- **Web Interface**: React 19 + TypeScript frontend with TanStack Router
+- **Authentication System**: User login/signup with Excel storage
+- **Exploratory Data Analysis**: Comprehensive dataset analysis and visualization
+- **Performance Metrics**: Training curves, confusion matrix, and per-class metrics
+- **QR Code Demo**: Mobile-friendly access to dashboard
+
+## Classification Classes
+
+- **MCL** (Mantle Cell Lymphoma)
+- **FL** (Follicular Lymphoma)
+- **CLL** (Chronic Lymphocytic Leukemia)
+
 ## Built with
 
 - TanStack Start
@@ -48,3 +65,4 @@ Passwords are stored as SHA-256 hashes (not plain text). Close and reopen the Ex
 - React
 - Tailwind CSS
 - Flask auth API + pandas/openpyxl (`users.xlsx`)
+- TensorFlow/Keras (model training)
