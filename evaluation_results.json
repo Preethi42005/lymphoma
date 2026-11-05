@@ -1,0 +1,54 @@
+{
+  "overall_accuracy": 0.5267333333333334,
+  "evaluation_time_seconds": 112.31469798088074,
+  "time_per_sample_ms": 7.487646532058716,
+  "model_parameters": 2619203,
+  "test_samples": 15000,
+  "per_class_metrics": {
+    "lymph_cll": {
+      "precision": 0.9285281647486372,
+      "recall": 0.3066,
+      "f1_score": 0.4609833107803338,
+      "support": 5000
+    },
+    "lymph_fl": {
+      "precision": 0.7389360751005811,
+      "recall": 0.3306,
+      "f1_score": 0.45681912394638663,
+      "support": 5000
+    },
+    "lymph_mcl": {
+      "precision": 0.4243160547156227,
+      "recall": 0.943,
+      "f1_score": 0.5852780536246276,
+      "support": 5000
+    }
+  },
+  "macro_averages": {
+    "precision": 0.6972600981882803,
+    "recall": 0.5267333333333334,
+    "f1_score": 0.5010268294504493
+  },
+  "confusion_matrix": [
+    [
+      1533,
+      374,
+      3093
+    ],
+    [
+      43,
+      1653,
+      3304
+    ],
+    [
+      75,
+      210,
+      4715
+    ]
+  ],
+  "class_indices": {
+    "lymph_cll": 0,
+    "lymph_fl": 1,
+    "lymph_mcl": 2
+  }
+}

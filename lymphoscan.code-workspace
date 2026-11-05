@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../archive 3/Multi Cancer/Multi Cancer/Lymphoma"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Lymphoma"
+	},
+	"trae": {
+		"workspaceId": "d401ed54af780e3090d459b1e922f5c6"
+	}
+}

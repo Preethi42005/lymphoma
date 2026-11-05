@@ -1,0 +1,39 @@
+{
+  "multiclass_cv_accuracy": 1.0,
+  "multiclass_cv_std": 0.0,
+  "dlbcl_binary_cv_accuracy": 1.0,
+  "dlbcl_binary_cv_std": 0.0,
+  "n_samples": 66,
+  "class_counts": {
+    "DLBCL": 46,
+    "CLL": 11,
+    "FL": 9
+  },
+  "multiclass_confusion": [
+    [
+      11,
+      0,
+      0
+    ],
+    [
+      0,
+      46,
+      0
+    ],
+    [
+      0,
+      0,
+      9
+    ]
+  ],
+  "binary_confusion": [
+    [
+      20,
+      0
+    ],
+    [
+      0,
+      46
+    ]
+  ]
+}
